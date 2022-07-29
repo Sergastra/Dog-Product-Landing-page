@@ -528,6 +528,10 @@ header {
     top: -10.99%;
     background-color: #9de5a4;
 }
+
+.img_vector-2 {
+    left: 43%;
+}
 .quality_product .product:nth-child(3) {
     margin-left: 30px;
 }
@@ -587,13 +591,13 @@ header {
         align-items: center;
     }
 
-    .quality_product .product:nth-child(2) {
+    .quality_product .product {
         margin: 30px;
     }
 
-    .quality_product .product:nth-child(3) {
-        margin: 30px;
-    }
+    /* .quality_product .product:nth-child(3) {
+        margin: 30px;:nth-child(2)
+    } */
 }
 
 /* END SECTION quality_product */
@@ -681,7 +685,7 @@ header {
         width: 100%;
         height: fit-content;
         text-align: center;
-        margin-top: 550px;
+        margin-top: 580px;
     }
 
     .poplar_image {
@@ -890,11 +894,11 @@ header {
     line-height: 24px;
     cursor: pointer;
 
-    position: relative;
-    overflow: hidden;
+    /* position: relative;
+    overflow: hidden; */
 }
 
-.care-btn:after {
+/* .care-btn::after {
     content: "";
     display: block;
     width: 10px;
@@ -913,7 +917,7 @@ header {
     transform: rotate(45deg);
     position: absolute;
     animation: movingFlare 3s ease-in-out 0.05s infinite;
-}
+} */
    
 @keyframes movingFlare {
     0% {
